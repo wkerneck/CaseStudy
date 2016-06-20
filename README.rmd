@@ -264,11 +264,11 @@ tail(clean_merged_data,5)
 
 #### Case Study Questions and Anwsers
 
-1. Match the data based on the country shortcode. How many of the IDs match? Before the merge of the two datasets we had 190 observations in the GPD.csv file. In the Fedstats_country.csv file we had a total of 211 observations.<strong>When we tidy up the data (removed the columns, NA's, blanks values in the datasets and merged on the country shortcake 189 observations matched.</strong>
+<strong>Question 1.</strong> Match the data based on the country shortcode. How many of the IDs match? Before the merge of the two datasets we had 190 observations in the GPD.csv file. In the Fedstats_country.csv file we had a total of 211 observations.<strong>When we tidy up the data (removed the columns, NA's, blanks values in the datasets and merged on the country shortcake 189 observations matched.</strong>
 
 <br>
 
-2. Sort the data frame in ascending order by GDP rank (so United States is last). What is the
+<strong>Question 2.</strong> Sort the data frame in ascending order by GDP rank (so United States is last). What is the
 13th country in the resulting data frame?
 
 ```{r}
@@ -278,7 +278,7 @@ thirteenthcountry
 ```
 <br>
 
-3. What are the average GDP rankings for the "High income: OECD" and "High income:
+<strong>Question 3.</strong> What are the average GDP rankings for the "High income: OECD" and "High income:
 nonOECD" groups?
 
 Let's first arrange the data by Income Category
@@ -306,7 +306,7 @@ The average ranking for the High income: nonOECD is <strong>91.91</strong>
 
 <br>
 
-4. Plot the GDP for all of the countries. Use ggplot2 to color your plot by Income Group.
+<strong>Question 4.</strong> Plot the GDP for all of the countries. Use ggplot2 to color your plot by Income Group.
 
 ```{r echo = FALSE, message=FALSE, warning=FALSE, error=FALSE,fig.width=16, fig.height=6}
 
@@ -321,7 +321,7 @@ final
 
 <br>
 
-5. Cut the GDP ranking into 5 separate quantile groups. Make a table versus Income.Group.
+<strong>Question 5.</strong> Cut the GDP ranking into 5 separate quantile groups. Make a table versus Income.Group.
 
 
 Ranking quantiles by applying the summary function.

@@ -511,11 +511,11 @@ tail(clean_merged_data,5)
 
 #### Case Study Questions and Anwsers
 
-1. Match the data based on the country shortcode. How many of the IDs match? Before the merge of the two datasets we had 190 observations in the GPD.csv file. In the Fedstats_country.csv file we had a total of 211 observations.<strong>When we tidy up the data (removed the columns, NA's, blanks values in the datasets and merged on the country shortcake 189 observations matched.</strong>
+<strong>Question 1.</strong> Match the data based on the country shortcode. How many of the IDs match? Before the merge of the two datasets we had 190 observations in the GPD.csv file. In the Fedstats_country.csv file we had a total of 211 observations.<strong>When we tidy up the data (removed the columns, NA's, blanks values in the datasets and merged on the country shortcake 189 observations matched.</strong>
 
 <br>
 
-2. Sort the data frame in ascending order by GDP rank (so United States is last). What is the
+<strong>Question 2.</strong> Sort the data frame in ascending order by GDP rank (so United States is last). What is the
 13th country in the resulting data frame?
 
 
@@ -531,7 +531,7 @@ thirteenthcountry
 ```
 <br>
 
-3. What are the average GDP rankings for the "High income: OECD" and "High income:
+<strong>Question 3.</strong> What are the average GDP rankings for the "High income: OECD" and "High income:
 nonOECD" groups?
 
 Let's first arrange the data by Income Category
@@ -596,13 +596,13 @@ The average ranking for the High income: nonOECD is <strong>91.91</strong>
 
 <br>
 
-4. Plot the GDP for all of the countries. Use ggplot2 to color your plot by Income Group.
+<strong>Question 4.</strong> Plot the GDP for all of the countries. Use ggplot2 to color your plot by Income Group.
 
 ![](README_files/figure-html/unnamed-chunk-27-1.png)<!-- -->
 
 <br>
 
-5. Cut the GDP ranking into 5 separate quantile groups. Make a table versus Income.Group.
+<strong>Question 5.</strong> Cut the GDP ranking into 5 separate quantile groups. Make a table versus Income.Group.
 
 
 Ranking quantiles by applying the summary function.
@@ -982,7 +982,7 @@ SecondQuantileIncome_Arranged[1:49,]
 ## 49         NGA      39 Lower middle income
 ```
 
-Look at the "lower Middle Income" entries and see which ones exist below the 38th GDP ranking. <strong>4 countries exist below the 38th GDP Ranking.</strong>
+Look at the "Lower Middle Income" entries and see which ones exist below the 38th GDP ranking. <strong>4 countries exist below the 38th GDP Ranking.</strong>
 
 
 ```r
@@ -1002,7 +1002,7 @@ SecondQuantileIncome_Arranged[51:54,]
 
 #### Conclusion and Summary
 
-In summary we downloaded, analyzed, tidy, and merged two .CSV files into one dataset. In order to merge the two files we first had to tidy the data in each dataset by removing unnecessary columns, removing NA and blank values, renaming column headings, and changing column types from factors to integers. As a result, before the merge of the data in the GPD.csv dataset we ended up with 189 records with 3 columns. In the Fedstats_country.csv the data frame has 235 observations of 31 variables. After we merged the dataset together and tidy up the merged data we ended up with 189 records.
+In summary we downloaded, analyzed, tidy, and merged two .CSV files into one dataset. In order to merge the two files we first had to tidy the data in each dataset by removing unnecessary columns, removing NA and blank values, renaming column headings, and changing column types from factors to integers. As a result, before the merge of the data in the GPD.csv dataset we ended up with 189 records with 3 columns. In the Fedstats_country.csv the data frame has 235 observations of 31 variables. After we merged the dataset together and tidy up the data we ended up with 189 records. When we plotted the merged data we can clearly linear trend from lowest to highest GPD incomes. Clearly, the United States by has far the strongest GDP.
 
 
 ****************************
