@@ -1001,7 +1001,7 @@ SecondQuantileIncome_Arranged[51:54,]
 
 #### Conclusion and Summary
 
-In summary we downloaded, analyzed, tidy, and merged two .CSV files into one dataset. In order to merge the two files we first had to tidy the data in each dataset by removing unnecessary columns, removing NA and blank values, renaming column headings, and changing column types from factors to integers. As a result, before the merge of the data in the GPD.csv dataset we ended up with 189 records with 3 columns. In the Fedstats_country.csv the data frame has 235 observations of 31 variables. After we merged the dataset together and tidy up the data we ended up with 189 records. When we plotted the merged data we can clearly linear trend from lowest to highest GPD incomes. Clearly, the United States by has far the strongest GDP.
+In summary we downloaded, analyzed, tidy, and merged two .CSV files into one dataset. In order to merge the two files we first had to tidy the data in each dataset by removing unnecessary columns, removing NA and blank values, renaming column headings, and changing column types from factors to integers. As a result, before the merge of the data in the GPD.csv dataset we ended up with 189 records with 3 columns. In the Fedstats_country.csv the data frame has 235 observations of 31 variables. After we merged the dataset together and tidy up the data we ended up with 189 records. When we plotted the merged data we can clearly linear trend from lowest to highest GPD incomes. Clearly, the United States by far has the strongest GDP amoungst all the countries represented in the merged dataset. 
 
 
 ****************************
