@@ -1,8 +1,7 @@
 # 2016-0509 MSDS 6304-401 Case Study
 Bill Kerneckel  
-June 11, 2016  
+June 19, 2016  
 
-<br>
 <br>
 
 #### Introduction
